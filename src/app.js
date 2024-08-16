@@ -43,7 +43,7 @@ $circle.addEventListener('click', (event) => {
     setTimeout(() => {
         $circle.style.setProperty('--tiltX', '0deg')
         $circle.style.setProperty('--tiltY', '0deg')
-    }, 300)
+    }, 3000)
 
     const plusOne = document.createElement('div')
     plusOne.classList.add('plus-one')
